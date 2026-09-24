@@ -1,0 +1,22 @@
+{
+    "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
+    "name": "Light",
+    "folder_name": "Light",
+    "description": "A lightweight, no-frills QGIS profile with just the essentials for quickly visualising data, without all of QGIS\u2019s features enabled.",
+    "author": "Florent Fougères",
+    "email": "florent.fougeres@oslandia.com",
+    "icon": "images/icon.ico",
+    "splash": "images/splash.png",
+    "qgisMinimumVersion": "3.44.0",
+    "qgisMaximumVersion": "4.4.0",
+    "version": "0.1.0",
+    "plugins": [
+        {
+            "name": "New Memory Layer",
+            "folder_name": "NewMemoryLayer",
+            "official_repository": true,
+            "plugin_id": 331,
+            "version": "0.5.3"
+        }
+    ]
+}

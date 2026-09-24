@@ -4,6 +4,14 @@
 
 This repository contains ready-to-use demo profiles for testing QDT. This repository only contains profiles, not installation scenarios.
 
+## Profiles
+
+### Light
+
+A QGIS Light profile, modelled on the plugin of the same name, with only the essential features enabled. Designed to provide a minimalist interface and simply display data.
+
+!(Light profile preview)[./fixtures/img/qgis_light_preview.png]
+
 ## License
 
 This work is licensed under a
