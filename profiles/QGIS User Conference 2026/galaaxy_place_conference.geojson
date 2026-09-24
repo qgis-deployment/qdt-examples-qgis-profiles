@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "galaaxy_place_conference",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { }, "geometry": { "type": "Point", "coordinates": [ 9.215456774345613, 46.834948241079374 ] } }
+]
+}
