@@ -11,4 +11,4 @@ A lightweight QGIS profile with a simplified interface, designed for quick and s
 
 ## Screenshot
 
-!(Screenshot)[../fixtures/img/qgis_light_preview.png]
+![Screenshot](https://github.com/qgis-deployment/qdt-examples-qgis-profiles/blob/main/fixtures/img/qgis_light_preview.png?raw=true)
