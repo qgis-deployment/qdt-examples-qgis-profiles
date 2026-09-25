@@ -10,6 +10,33 @@
     "qgisMinimumVersion": "3.44.0",
     "qgisMaximumVersion": "4.4.14",
     "version": "0.1",
+    "rules": [
+        {
+            "name": "Laax attendee or event window",
+            "description": "Deploy only during QUC Laax (Sept 2026 to Sept 2027) or if the attendee flag is set",
+            "conditions": {
+                "any": [
+                    {
+                        "all": [
+                            { "path": "$.date.current_year", "operator": "equal", "value": 2026 },
+                            { "path": "$.date.current_month", "operator": "greater_than_inclusive", "value": 9 }
+                        ]
+                    },
+                    {
+                        "all": [
+                            { "path": "$.date.current_year", "operator": "equal", "value": 2027 },
+                            { "path": "$.date.current_month", "operator": "less_than_inclusive", "value": 9 }
+                        ]
+                    },
+                    {
+                        "all": [
+                            { "path": "$.env.QDT_LAAX_ATTENDEE", "operator": "equal", "value": "true" }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
     "plugins": [
         {
             "name": "brdrQ",
@@ -85,6 +112,7 @@
             "name":"QBeach",
             "folder_name":"QBeach",
             "official_repository": false,
+            "location": "remote",
             "version":"0.1.0",
             "url":"https://github.com/JTMelly/QBeach/releases/download/v0.1.0/QBeach.zip"
         }
