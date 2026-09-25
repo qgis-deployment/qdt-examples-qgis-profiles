@@ -1,0 +1,120 @@
+{
+    "$schema": "https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json",
+    "name": "QGIS User Conference 2026",
+    "folder_name": "QGIS User Conference 2026",
+    "description": "A ready-to-use QGIS profile to help you follow the 2026 QGIS User Conference in Laax",
+    "author": "Florent Fougères",
+    "email": "florent.fougeres@oslandia.com",
+    "icon": "images/icon.ico",
+    "splash": "images/splash.png",
+    "qgisMinimumVersion": "3.44.0",
+    "qgisMaximumVersion": "4.4.14",
+    "version": "0.1",
+    "rules": [
+        {
+            "name": "Laax attendee or event window",
+            "description": "Deploy only during QUC Laax (Sept 2026 to Sept 2027) or if the attendee flag is set",
+            "conditions": {
+                "any": [
+                    {
+                        "all": [
+                            { "path": "$.date.current_year", "operator": "equal", "value": 2026 },
+                            { "path": "$.date.current_month", "operator": "greater_than_inclusive", "value": 9 }
+                        ]
+                    },
+                    {
+                        "all": [
+                            { "path": "$.date.current_year", "operator": "equal", "value": 2027 },
+                            { "path": "$.date.current_month", "operator": "less_than_inclusive", "value": 9 }
+                        ]
+                    },
+                    {
+                        "all": [
+                            { "path": "$.env.QDT_LAAX_ATTENDEE", "operator": "equal", "value": "true" }
+                        ]
+                    }
+                ]
+            }
+        }
+    ],
+    "plugins": [
+        {
+            "name": "brdrQ",
+            "folder_name": "brdrq",
+            "official_repository": true,
+            "plugin_id": 4235,
+            "version": "1.0.0"
+        },
+        {
+            "name": "Linking Relation Editor",
+            "folder_name": "linking_relation_editor",
+            "official_repository": true,
+            "plugin_id": 2632,
+            "version": "v1.5.0"
+        },
+        {
+            "name": "Lizmap",
+            "folder_name": "lizmap",
+            "official_repository": true,
+            "plugin_id": 72,
+            "version": "5.0.2"
+        },
+        {
+            "name": "Mergin Maps",
+            "folder_name": "Mergin",
+            "official_repository": true,
+            "plugin_id": 1703,
+            "version": "2026.5.1"
+        },
+        {
+            "name": "Model Baker",
+            "folder_name": "QgisModelBaker",
+            "official_repository": true,
+            "plugin_id": 1596,
+            "version": "v8.3.11"
+        },
+        {
+            "name": "NextGIS Connect",
+            "folder_name": "nextgis_connect",
+            "official_repository": true,
+            "plugin_id": 1009,
+            "version": "4.1.1"
+        },
+        {
+            "name": "Swiss Locator",
+            "folder_name": "swiss_locator",
+            "official_repository": true,
+            "plugin_id": 1487,
+            "version": "5.0.6"
+        },
+        {
+            "name": "Profile Manager",
+            "folder_name": "profile_manager",
+            "official_repository": true,
+            "plugin_id": 3547,
+            "version": "0.7.4"
+        },
+        {
+            "name": "QField Sync",
+            "folder_name": "qfieldsync",
+            "official_repository": true,
+            "plugin_id": 1083,
+            "version": "v4.23.1"
+        },
+        {
+            "name": "qfit",
+            "folder_name": "qfit",
+            "official_repository": true,
+            "plugin_id": 5012,
+            "version": "0.50.1"
+        },
+        {
+            "name":"QBeach",
+            "folder_name":"QBeach",
+            "official_repository": false,
+            "location": "remote",
+            "version":"0.1.0",
+            "url":"https://github.com/JTMelly/QBeach/releases/download/v0.1.0/QBeach.zip"
+        }
+    ]
+}

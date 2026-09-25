@@ -13,9 +13,9 @@ steps:
   - name: Download profiles from local Git repository
     uses: qprofiles-downloader
     with:
-      branch: add-qgis-light-profiles
-      protocol: git_local
-      source: file:///home/florent/oslandia/projet/qdt-examples-qgis-profiles
+      branch: add-laax-qgis-profiles
+      protocol: git_remote
+      source: https://github.com/qgis-deployment/qdt-examples-qgis-profiles
 
   - name: Synchronize installed profiles
     uses: qprofiles-synchronizer
@@ -39,8 +39,8 @@ steps:
     with:
       action: create_or_restore
       include:
-        - profile: Light
-          label: "QGIS - Light"
+        - profile: "QGIS User Conference 2026"
+          label: "QGIS User Conference 2026"
           desktop: true
           start_menu: true
           icon: "icon.ico"

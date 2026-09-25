@@ -6,11 +6,17 @@ This repository contains ready-to-use demo profiles for testing QDT. This reposi
 
 ## Profiles
 
-### Light
+### [Light](./profiles/Light/README.md)
 
 A QGIS Light profile, modelled on the plugin of the same name, with only the essential features enabled. Designed to provide a minimalist interface and simply display data.
 
 ![Light profile preview](https://github.com/qgis-deployment/qdt-examples-qgis-profiles/blob/main/fixtures/img/qgis_light_preview.png?raw=true)
+
+### [QGIS User Conference 2026](./profiles/QGIS%20User%20Conference%202026/README.md)
+
+A ready-to-use QGIS profile to help you follow the 2026 QGIS User Conference in Laax
+
+![QGIS User Conference 2026 profile preview](https://github.com/qgis-deployment/qdt-examples-qgis-profiles/blob/main/fixtures/img/qgis_user_conference_2026_preview.png?raw=true)
 
 ## License
 
