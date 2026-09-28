@@ -4,7 +4,6 @@ A QGIS profile built around the QGIS User Conference 2026 in Laax, Switzerland, 
 
 ## Content
 
-- Custom plugin including a locator filter to <!-- à compléter : ce que cherche le locator -->
 - Plugins presented at the conference:
   - QFieldSync
   - Mergin Maps
@@ -15,7 +14,7 @@ A QGIS profile built around the QGIS User Conference 2026 in Laax, Switzerland, 
   - brdrQ
   - QBeach
   - qfit
-- Swiss Locator
+- Swiss Locator : A QGIS plugin that adds Swiss adress search directly to the locator bar
 - swisstopo vector tiles basemap and swisstopo WMS service preconfigured
 - Default project centred on the conference venue in Laax
 
