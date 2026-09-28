@@ -1,7 +1,7 @@
 metadata:
-  id: qdt-test-light
-  title: Test déploiement profil Light
-  description: Scénario de test local pour le profil Light
+  id: qdt-examples-qgis-profiles
+  title: QDT examples QGIS profiles deployment
+  description: Deploys all the example profiles of the qdt-examples-qgis-profiles repository
 
 settings: {}
 
@@ -10,10 +10,10 @@ steps:
     uses: qgis-installation-finder
     with: {}
 
-  - name: Download profiles from local Git repository
+  - name: Download profiles from remote Git repository
     uses: qprofiles-downloader
     with:
-      branch: add-laax-qgis-profiles
+      branch: main
       protocol: git_remote
       source: https://github.com/qgis-deployment/qdt-examples-qgis-profiles
 
@@ -39,6 +39,11 @@ steps:
     with:
       action: create_or_restore
       include:
+        - profile: Light
+          label: "QGIS - Light"
+          desktop: true
+          start_menu: true
+          icon: "icon.ico"
         - profile: "QGIS User Conference 2026"
           label: "QGIS User Conference 2026"
           desktop: true
