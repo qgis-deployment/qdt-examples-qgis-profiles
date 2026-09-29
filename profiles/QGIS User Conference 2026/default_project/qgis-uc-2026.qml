@@ -14,7 +14,7 @@ Item {
   property var mainWindow: iface.mainWindow()
   property var mapCanvas: iface.mapCanvas()
   property var featureForm: iface.findItemByObjectName('featureForm')
-  
+
   property var roomsLayer: undefined
   property var eventsLayer: undefined
   property var speakersLayer: undefined
@@ -39,11 +39,11 @@ Item {
 
     fetchSchedule();
   }
-  
+
   Component.onDestruction: {
     Theme.applyAppearance()
   }
-  
+
   Connections {
     target: featureForm.selection
     enabled: sliderContainer.expanded
@@ -62,7 +62,7 @@ Item {
       }
     }
   }
-  
+
   Rectangle {
     id: sliderContainer
     parent: mapCanvas
@@ -99,9 +99,9 @@ Item {
 
       Slider {
         id: floorSlider
-        
+
         property var floorNames: ['-1','0','1', '2']
-        
+
         Layout.preferredHeight: sliderContainer.expanded ? 48 : 0
         Layout.fillWidth: true
         Layout.fillHeight: true
@@ -129,7 +129,7 @@ Item {
 
         onClicked: {
           sliderContainer.expanded = !sliderContainer.expanded;
-          
+
           if (sliderContainer.expanded) {
             let galaaxyDay = new Date("2026-10-05");
             let nowDay = new Date();
@@ -150,7 +150,7 @@ Item {
             if (flatLayerTree.mapTheme != "Conference focus") {
               flatLayerTree.mapTheme = "Conference focus"
             }
-            
+
             ExpressionContextUtils.setLayerVariable(roomsLayer, "current_floor", floorSlider.floorNames[floorSlider.value]);
             roomsLayer.triggerRepaint();
           } else {
@@ -161,13 +161,13 @@ Item {
       }
     }
   }
-  
+
   Settings {
     id: settings
     category: "qgis-uc-2026-settings"
-    property string favorites: ""  
+    property string favorites: ""
   }
-  
+
   QfToolButton {
     id: eventsButton
     width: 48
@@ -181,7 +181,7 @@ Item {
       featureForm.model.setFeatures(eventsLayer, "");
     }
   }
-  
+
   QfToolButton {
     id: speakersButton
     width: 48
@@ -195,7 +195,7 @@ Item {
       featureForm.model.setFeatures(speakersLayer, "");
     }
   }
-  
+
   QfToolButton {
     id: favoritesButton
     width: 48
@@ -217,14 +217,14 @@ Item {
         filter += ",'" + favorite +"'";
       }
       filter += ")";
-      
+
       featureForm.model.setFeatures(eventsLayer, filter);
     }
   }
-  
+
   function fetchSchedule() {
     let xhr = new XMLHttpRequest();
-    
+
     xhr.onreadystatechange = function() {
       if (xhr.readyState === XMLHttpRequest.DONE) {
         let response = {

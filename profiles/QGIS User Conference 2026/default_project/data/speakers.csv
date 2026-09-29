@@ -30,8 +30,8 @@ Jean Damour has experience in ecological data collection, GIS mapping, and envir
 He works with consultancies, land managers and governmental organisations to create the spatial evidence and analysis needed to target resource allocation, improve land management, and make informed policy & strategic decisions. He has extensive and in-depth experience on ecological, green infrastructure, landscape, ecosystem services and estate management projects. He also loves to build capacity and has trained thousands of delegates in the ecology and landscape professions to use QGIS with confidence."
 6b8ec880-5b22-5aac-aa7b-b5b362a111df,Jakob Heinzle,"-"
 a1a0ca17-7883-5e8f-9e97-b5cf9a8e7dff,Brigitte Suter,"Brigitte Suter’s educational background is in environmental engineering, with a postgraduate Certificate of Advanced Studies (CAS) in geoinformation from the Swiss Federal Institute of Technology Zurich (ETH Zurich). In her work, she has been managing soil mapping projects in the Swiss public administration since 2008. She is passionate about GIS and open-source technologies."
-44c3ff73-bb93-5898-9569-e1cc3897de99,Carlos Eduardo Mota,"Geologist PhD of Geological Survey of Brazil. 
-Experienced GIS FullStack Developer (Python, Javascript, PostgreSQL/PostGIS) since 2007. 
+44c3ff73-bb93-5898-9569-e1cc3897de99,Carlos Eduardo Mota,"Geologist PhD of Geological Survey of Brazil.
+Experienced GIS FullStack Developer (Python, Javascript, PostgreSQL/PostGIS) since 2007.
 - https://www.osgeo.org/member/mota/
 - https://cmota.dev/"
 17bbeb1f-455e-54a1-93e8-df3c3cd9d7a1,Stefan Keller,
@@ -113,8 +113,8 @@ b7442cd2-c219-59f8-8012-5bcac6b92361,Aditi Bhandari,
 7c202941-ad1e-5f50-b4ac-0270726c4a35,Johannes Kanonier,"Degree in Surveying, Mapping and Remote Sensing, TU Vienna (1989)
 Degree ""Technischer Umweltschutz"", TU / BOKU Vienna (1993)"
 93ed8de7-6d98-5031-814e-285b7e246d75,Alexandre Demidov,"<p>
-  <strong>GIS Expert & Developer at BRGM</strong> (the French Geological Survey), I hold a double background in Geosciences and Computer Science. 
-  I specialize in streamlining complex geospatial workflows, focusing on developing Python-based solutions and QGIS plugins to automate data acquisition and thematic mapping. 
+  <strong>GIS Expert & Developer at BRGM</strong> (the French Geological Survey), I hold a double background in Geosciences and Computer Science.
+  I specialize in streamlining complex geospatial workflows, focusing on developing Python-based solutions and QGIS plugins to automate data acquisition and thematic mapping.
   With extensive experience in field data management and remote sensing, I currently implement ntegrated QField-QGIS pipelines to ensure digital continuity from the outcrop to final cartographic production.
 </p>"
 7ca3823b-4c2c-5de2-8b6f-19278c20d2cb,Pierre Cothereau,
@@ -123,9 +123,9 @@ Degree ""Technischer Umweltschutz"", TU / BOKU Vienna (1993)"
 23cc6e4e-2b68-5e65-a1dd-cb33a9f5fb07,Marta Siebel,"I am a Data Engineer and GIS Analyst at GEOTEST AG, focusing on geospatial data engineering and GIS workflows for natural hazard assessment. With an academic background in Development Economics and impact evaluation, I transitioned through data analytics roles in public infrastructure development, including work at the World Bank, into applied geospatial analysis."
 c69f4245-8c68-5a01-92ea-7cb45ecb6fc5,Rudolf Doninger,"20 years experience in telecommunication & it
 5 years experience in GIS informatics engineering"
-cabad9d4-6c82-516c-bced-38ed3f56565f,Paolo Molini,"Paolo Molini is Head of GIS and Mapping at Iren Ambiente, part of the Iren Group, one of the largest multi-utilities in Italy. 
-He has over ten years of experience in developing GIS tools to support waste collection services, with a strong focus on service design, operational optimisation, and effective data visualisation for both internal departments and external stakeholders. 
-At QGIS User Conference 2026, he will present an in-house developed QGIS plugin that enables the efficient calculation of operational parameters for waste collection services from vehicle GPS tracks, achieving an 80% reduction in analysis time compared to previous manual workflows. 
+cabad9d4-6c82-516c-bced-38ed3f56565f,Paolo Molini,"Paolo Molini is Head of GIS and Mapping at Iren Ambiente, part of the Iren Group, one of the largest multi-utilities in Italy.
+He has over ten years of experience in developing GIS tools to support waste collection services, with a strong focus on service design, operational optimisation, and effective data visualisation for both internal departments and external stakeholders.
+At QGIS User Conference 2026, he will present an in-house developed QGIS plugin that enables the efficient calculation of operational parameters for waste collection services from vehicle GPS tracks, achieving an 80% reduction in analysis time compared to previous manual workflows.
 In his spare time, you can find him exploring nature, by foot or with a drone."
 507be883-5b91-558f-9fbe-1fa1830de2c0,Sultan Hasan Alsultan,"Dr. Sultan Al Sultan, leading an era of open-source Geospatial Technology Software in Saudi Arabia, Tokyo Institute of Technology PhD, a senior researcher at NASA, USGS, and has been a researcher in JAXA, RESTEC-Japan. he graduate from MIT Massachusetts Institute of Technology, and previously from George Washington University, USA. He represented Univeristy Space Engineering Consortium (UNISEC) for Saudi Arabia Universities. He is Saudi Arabia Parliament Member 2013-2017. Today he is the Founder and CEO of Environmental Remote Sensing Lab (TECRS-Lab)."
 a1fb45c5-2647-5bc6-b48e-832e4658f772,Mie Winstrup,"GIS-consultant at Septima and board member of the Danish QGIS User Group. I teach a lot of QGIS courses and manage some of our Septima plugins. I contribute to the QGIS-project with the Danish translation of QGIS, writing blogs about QGIS and I have developed the 'Move to Top'-functionality in the layer panel."
@@ -155,7 +155,7 @@ For the past tree years, the work at the Danish Nature Agency has centered on cu
 17cc6e5b-9e25-540b-a27c-e36cbded5738,Fabiana Jaramillo,"Colombian Environmental Administrator and GIS specialist focused on biodiversity conservation. She uses GIS, drone mapping, and spatial analysis to support environmental planning, conservation, sustainable decision-making, and environmental education, helping connect communities with nature through geospatial technologies."
 f58914e5-c420-5480-af62-15fcec6b54f4,Sebastian Giersch,"Dr. Sebastian Giersch (He/Him) is a software developer and meteorologist with a strong background in computational science, high-performance computing, and numerical modeling. He holds a PhD in Meteorology (2023) from Leibniz Universität Hannover, where he investigated dust devil-like vortices in convective boundary layers using large-eddy simulations, direct numerical simulations, and laboratory experiments at the Barrel of Ilmenau. His research combined numerical modeling and experimental studies to better understand the structure, development, and maintenance of turbulent atmospheric vortices.
 
-Following his PhD, Sebastian shifted his focus to software development and joined EBP Deutschland GmbH in May 2024. He specializes in developing and managing geospatial workflows and in building custom, data-driven software with meteorological applications, covering both backend and frontend development. 
+Following his PhD, Sebastian shifted his focus to software development and joined EBP Deutschland GmbH in May 2024. He specializes in developing and managing geospatial workflows and in building custom, data-driven software with meteorological applications, covering both backend and frontend development.
 
 During his univeristy carreer, he contributed to the development of the PALM model system for turbulence-resolving simulations, supported teaching and international workshops, and instructed scientists and students in advanced modeling techniques.
 
@@ -174,7 +174,7 @@ His work focuses on the application of geo-spatial tools and methods to monitor,
 At KIOS, Andreas leads the GIS team, driving the development of digital geo-spatial solutions, tools, and ecosystems that foster collaboration with the public sector, such as GNOSIS, the Cyprus Transport Networks Digital Twin (CyNetTwin), School Network Planning (SNP), and CyNAP. His work supports the digital transformation of public authorities while ensuring alignment with local and EU policies and directives.
 He has also been actively involved in the promotion of GIS in education, delivering several presentations, workshops, and outreach activities to raise awareness and strengthen capacity in the field of geospatial technologies. Andreas is a board member of ‘QGIS Cyprus’ community."
 e62ed31e-a948-53ac-858f-9ed3e20d8a47,Matthew Toro,"Matthew Toro is a broadly trained geographer serving as the director of maps, imagery, and geospatial services at the Arizona State University Library in Tempe, Arizona. He founded and leads the Map and Geospatial Hub, a fusion of a traditional map library and a modern GIS center. The Hub executes a wide range of projects at the intersection of data management, geography, history, cartography, and visualization."
-174f96b8-c9eb-5004-b138-1a04fe192a57,ADRIANA RAMIREZ CUEBAS,"Urban landscape design and engineering researcher focused on outdoor thermal comfort and decarbonization. 
+174f96b8-c9eb-5004-b138-1a04fe192a57,ADRIANA RAMIREZ CUEBAS,"Urban landscape design and engineering researcher focused on outdoor thermal comfort and decarbonization.
 Research and Personal Work Page: https://www.hurarcan.com/
 
 BSc in Civil and Environmental Engineering from UPRM 23', MSc in Building Technology from MIT 25', Fulbright Pre-doctoral Research Fellow 25-26'."
