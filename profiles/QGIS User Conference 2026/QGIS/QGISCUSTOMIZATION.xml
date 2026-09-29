@@ -486,16 +486,16 @@
     </Menu>
   </Menus>
   <StatusBarWidgets name="StatusBarWidgets" visible="true">
-    <StatusBarWidget name="mProgressBar" visible="false"/>
-    <StatusBarWidget name="mCoordsEdit" visible="false"/>
-    <StatusBarWidget name="mScaleWidget" visible="false"/>
-    <StatusBarWidget name="mMagnifierWidget" visible="false"/>
-    <StatusBarWidget name="mRotationLabel" visible="false"/>
-    <StatusBarWidget name="mRotationEdit" visible="false"/>
-    <StatusBarWidget name="mRenderSuppressionCBox" visible="false"/>
-    <StatusBarWidget name="mOntheFlyProjectionStatusButton" visible="false"/>
-    <StatusBarWidget name="mMessageLogViewerButton" visible="false"/>
-    <StatusBarWidget name="LocatorWidget" visible="false"/>
+    <StatusBarWidget name="mProgressBar" visible="true"/>
+    <StatusBarWidget name="mCoordsEdit" visible="true"/>
+    <StatusBarWidget name="mScaleWidget" visible="true"/>
+    <StatusBarWidget name="mMagnifierWidget" visible="true"/>
+    <StatusBarWidget name="mRotationLabel" visible="true"/>
+    <StatusBarWidget name="mRotationEdit" visible="true"/>
+    <StatusBarWidget name="mRenderSuppressionCBox" visible="true"/>
+    <StatusBarWidget name="mOntheFlyProjectionStatusButton" visible="true"/>
+    <StatusBarWidget name="mMessageLogViewerButton" visible="true"/>
+    <StatusBarWidget name="LocatorWidget" visible="true"/>
   </StatusBarWidgets>
   <ToolBars name="ToolBars" visible="true">
     <ToolBar name="MerginMapsToolbar" visible="true"/>
