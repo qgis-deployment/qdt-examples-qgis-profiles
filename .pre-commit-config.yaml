@@ -23,7 +23,7 @@ repos:
       - id: check-json5
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.38.0
+    rev: 0.38.2
     hooks:
       - id: check-jsonschema
         name: Check QDT profiles
@@ -33,7 +33,7 @@ repos:
           - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.38.0
+    rev: 0.38.2
     hooks:
       - id: check-jsonschema
         name: Check QDT scenarios
