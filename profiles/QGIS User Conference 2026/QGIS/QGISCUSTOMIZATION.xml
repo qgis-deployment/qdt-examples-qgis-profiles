@@ -1,0 +1,783 @@
+<!DOCTYPE Customization>
+<Customization enabled="true" splashPath="/home/florent/.local/share/QGIS/QGIS3/profiles/QGIS User Conference 2026/images/" version="1">
+  <BrowserItems name="BrowserItems" visible="true">
+    <BrowserItem name="AFS" visible="false"/>
+    <BrowserItem name="GRASS" visible="false"/>
+    <BrowserItem name="MSSQL" visible="false"/>
+    <BrowserItem name="QLR" visible="false"/>
+    <BrowserItem name="QPT" visible="false"/>
+    <BrowserItem name="SAP HANA" visible="false"/>
+    <BrowserItem name="STAC" visible="false"/>
+    <BrowserItem name="SensorThings" visible="false"/>
+    <BrowserItem name="WCS" visible="false"/>
+    <BrowserItem name="WFS" visible="false"/>
+    <BrowserItem name="html" visible="false"/>
+    <BrowserItem name="project_item" visible="false"/>
+    <BrowserItem name="py" visible="false"/>
+    <BrowserItem name="special:Home" visible="false"/>
+    <BrowserItem name="files" visible="true"/>
+    <BrowserItem name="GDAL Cloud" visible="true"/>
+    <BrowserItem name="GPKG" visible="true"/>
+    <BrowserItem name="PostGIS" visible="true"/>
+    <BrowserItem name="spatialite" visible="true"/>
+    <BrowserItem name="Scenes" visible="true"/>
+    <BrowserItem name="Vector Tiles" visible="true"/>
+    <BrowserItem name="WMS" visible="true"/>
+    <BrowserItem name="XYZ Tiles" visible="true"/>
+    <BrowserItem name="bookmarks_item" visible="true"/>
+    <BrowserItem name="style_xml" visible="true"/>
+    <BrowserItem name="processing" visible="true"/>
+  </BrowserItems>
+  <Docks name="Docks" visible="true">
+    <Dock name="NGConnectDock" visible="true"/>
+    <Dock name="html_maptip_preview" visible="true"/>
+    <Dock name="undo/redo dock" visible="true"/>
+    <Dock name="AdvancedDigitizingTools" visible="true"/>
+    <Dock name="StatisticalSummaryDockWidget" visible="true"/>
+    <Dock name="BookmarksDockWidget" visible="true"/>
+    <Dock name="VertexEditor" visible="true"/>
+    <Dock name="Layers" visible="true"/>
+    <Dock name="LayerOrder" visible="true"/>
+    <Dock name="Overview" visible="true"/>
+    <Dock name="QgsGeometryValidationDockBase" visible="true"/>
+    <Dock name="LayerStyling" visible="true"/>
+    <Dock name="DevTools" visible="true"/>
+    <Dock name="Browser" visible="true"/>
+    <Dock name="Temporal Controller" visible="true"/>
+    <Dock name="Browser2" visible="true"/>
+    <Dock name="GPSInformation" visible="true"/>
+    <Dock name="MessageLog" visible="true"/>
+    <Dock name="ProcessingToolbox" visible="true"/>
+    <Dock name="ResultsViewer" visible="true"/>
+    <Dock name="theTileScaleDock" visible="true"/>
+  </Docks>
+  <Menus name="Menus" visible="true">
+    <Menu name="mPluginMenu" visible="true">
+      <Action name="MerginMaps" visible="true"/>
+      <Action name="Oslandia" visible="true"/>
+      <Action name="QFieldSync" visible="true"/>
+      <Action name="qfit" visible="true"/>
+      <Action name="mActionManagePlugins" visible="true"/>
+      <Action name="mActionShowPythonDialog" visible="true"/>
+    </Menu>
+    <Menu name="mSettingsMenu" visible="true">
+      <Menu name="mUserProfileMenu" visible="true">
+        <Action name="mActionProfile_QGIS User Conference Laax 2026" visible="true"/>
+        <Action name="mActionProfile_Agence_eau2026" visible="true"/>
+        <Action name="mActionProfile_CNES FlipFLop" visible="true"/>
+        <Action name="mActionProfile_CNR" visible="true"/>
+        <Action name="mActionProfile_DICT" visible="true"/>
+        <Action name="mActionProfile_duckdb" visible="true"/>
+        <Action name="mActionProfile_empty" visible="true"/>
+        <Action name="mActionProfile_etl" visible="true"/>
+        <Action name="mActionProfile_florent" visible="true"/>
+        <Action name="mActionProfile_French Locator" visible="true"/>
+        <Action name="mActionProfile_georelai_0.14" visible="true"/>
+        <Action name="mActionProfile_GVA" visible="true"/>
+        <Action name="mActionProfile_Light" visible="true"/>
+        <Action name="mActionProfile_neuf" visible="true"/>
+        <Action name="mActionProfile_NewMemoryLayer" visible="true"/>
+        <Action name="mActionProfile_Oslandia" visible="true"/>
+        <Action name="mActionProfile_pg-history" visible="true"/>
+        <Action name="mActionProfile_PLU" visible="true"/>
+        <Action name="mActionProfile_plu2" visible="true"/>
+        <Action name="mActionProfile_primo" visible="true"/>
+        <Action name="mActionProfile_QGIS User Conference 2026" visible="true"/>
+        <Action name="mActionProfile_QGIS_Templater_Plugin" visible="true"/>
+        <Action name="mActionProfile_SAFEGE" visible="true"/>
+        <Action name="mActionProfile_sfcgal" visible="true"/>
+        <Action name="mActionProfile_sfcgal_test" visible="true"/>
+        <Action name="mActionProfile_simple" visible="true"/>
+        <Action name="mActionProfile_test1" visible="true"/>
+        <Action name="mActionProfile_test3" visible="true"/>
+        <Action name="mActionProfile_test3d" visible="true"/>
+        <Action name="mActionProfile_test_benoit" visible="true"/>
+        <Action name="mActionProfile_test_qfield" visible="true"/>
+        <Action name="mActionProfile_test_rde" visible="true"/>
+        <Action name="mActionProfile_testt" visible="true"/>
+        <Action name="mActionProfile_toto334" visible="true"/>
+        <Action name="mActionProfile_totooo" visible="true"/>
+        <Action name="mActionProfile_vide" visible="true"/>
+        <Action name="mActionProfile_vizu" visible="true"/>
+        <Action name="mActionProfile_World Stadium Database" visible="true"/>
+        <Action name="mActionOpenActiveProfileFolder" visible="true"/>
+        <Action name="mActionNewProfile" visible="true"/>
+      </Menu>
+      <Menu name="mPanelMenu" visible="true"/>
+      <Menu name="mToolbarMenu" visible="true">
+        <Action name="mActionToggleSnappingToolBar" visible="true"/>
+        <Action name="mActionToggleHelpToolBar" visible="true"/>
+        <Action name="mActionToggleAttributesToolBar" visible="true"/>
+        <Action name="mActionToggleAnnotationsToolBar" visible="true"/>
+        <Action name="mActionToggleDatabaseToolBar" visible="true"/>
+        <Action name="mActionToggleLabelToolBar" visible="true"/>
+        <Action name="mActionTogglePluginToolBar" visible="true"/>
+        <Action name="mActionToggleLayerToolBar" visible="true"/>
+        <Action name="mActionToggleDataSourceManagerToolBar" visible="true"/>
+        <Action name="mActionToggleWebToolBar" visible="true"/>
+        <Action name="mActionToggleMapNavToolBar" visible="true"/>
+        <Action name="mActionToggleDigitizeToolBar" visible="true"/>
+        <Action name="mActionToggleAdvancedDigitizeToolBar" visible="true"/>
+        <Action name="mActionToggleShapeDigitizeToolBar" visible="true"/>
+        <Action name="mActionToggleMeshToolBar" visible="true"/>
+        <Action name="mActionToggleFileToolBar" visible="true"/>
+        <Action name="mActionToggleRasterToolBar" visible="true"/>
+        <Action name="mActionToggleSelectionToolBar" visible="true"/>
+        <Action name="mActionToggleVectorToolBar" visible="true"/>
+      </Menu>
+      <Action name="mActionToggleFullScreen" visible="true"/>
+      <Action name="mActionTogglePanelsVisibility" visible="true"/>
+      <Action name="mActionToggleMapOnly" visible="true"/>
+      <Action name="mActionStyleManager" visible="true"/>
+      <Action name="mActionCustomProjection" visible="true"/>
+      <Action name="mActionConfigureShortcuts" visible="true"/>
+      <Action name="mActionCustomization" visible="true"/>
+      <Action name="mActionOptions" visible="true"/>
+    </Menu>
+    <Menu name="mWebMenu" visible="true">
+      <Action name="NextGISConnect" visible="true">
+        <Action name="NGConnectShowDock" visible="true"/>
+      </Action>
+    </Menu>
+    <Menu name="mProjectMenu" visible="true">
+      <Action name="mActionNewProject" visible="true"/>
+      <Menu name="mProjectFromTemplateMenu" visible="true"/>
+      <Action name="mActionOpenProject" visible="true"/>
+      <Menu name="mProjectFromStorageMenu" visible="true"/>
+      <Menu name="mRecentProjectsMenu" visible="true"/>
+      <Action name="mActionCloseProject" visible="true"/>
+      <Action name="mActionSaveProject" visible="true"/>
+      <Action name="mActionSaveProjectAs" visible="true"/>
+      <Menu name="mProjectToStorageMenu" visible="true"/>
+      <Action name="mActionRevertProject" visible="true"/>
+      <Action name="mActionProjectProperties" visible="true"/>
+      <Action name="mActionSnappingOptions" visible="true"/>
+      <Menu name="menuImport_Export" visible="true">
+        <Action name="mActionSaveMapAsImage" visible="true"/>
+        <Action name="mActionSaveMapAsPdf" visible="true"/>
+        <Action name="mActionDxfExport" visible="true"/>
+        <Action name="mActionDwgImport" visible="true"/>
+      </Menu>
+      <Action name="mActionNewPrintLayout" visible="true"/>
+      <Action name="mActionNewReport" visible="true"/>
+      <Action name="mActionShowLayoutManager" visible="true"/>
+      <Menu name="mLayoutsMenu" visible="true"/>
+      <Menu name="mMenuProjectModels" visible="true"/>
+      <Action name="mActionExit" visible="true"/>
+    </Menu>
+    <Menu name="mEditMenu" visible="true">
+      <Action name="mActionUndo" visible="true"/>
+      <Action name="mActionRedo" visible="true"/>
+      <Action name="mActionCutFeatures" visible="true"/>
+      <Action name="mActionCopyFeatures" visible="true"/>
+      <Action name="mActionPasteFeatures" visible="true"/>
+      <Menu name="mMenuPasteAs" visible="true">
+        <Action name="mActionPasteAsNewVector" visible="true"/>
+        <Action name="mActionPasteAsNewMemoryVector" visible="true"/>
+      </Menu>
+      <Action name="mActionDeleteSelected" visible="true"/>
+      <Menu name="mMenuSelect" visible="true">
+        <Action name="mActionSelectFeatures" visible="true"/>
+        <Action name="mActionSelectPolygon" visible="true"/>
+        <Action name="mActionSelectFreehand" visible="true"/>
+        <Action name="mActionSelectRadius" visible="true"/>
+        <Action name="mActionSelectByForm" visible="true"/>
+        <Action name="mActionSelectByExpression" visible="true"/>
+        <Action name="mActionDeselectAll" visible="true"/>
+        <Action name="mActionDeselectActiveLayer" visible="true"/>
+        <Action name="mActionReselect" visible="true"/>
+        <Action name="mActionSelectAll" visible="true"/>
+        <Action name="mActionInvertSelection" visible="true"/>
+      </Menu>
+      <Action name="mActionAddFeature" visible="true"/>
+      <Menu name="mMenuAnnotation" visible="true">
+        <Action name="mActionFormAnnotation" visible="true"/>
+        <Action name="mActionHtmlAnnotation" visible="true"/>
+      </Menu>
+      <Menu name="mMenuEditAttributes" visible="true">
+        <Action name="mActionMultiEditAttributes" visible="true"/>
+        <Action name="mActionMergeFeatureAttributes" visible="true"/>
+      </Menu>
+      <Menu name="mMenuEditGeometry" visible="true">
+        <Action name="mActionMoveFeature" visible="true"/>
+        <Action name="mActionMoveFeatureCopy" visible="true"/>
+        <Action name="mActionFeatureArray" visible="true"/>
+        <Action name="mActionRotateFeature" visible="true"/>
+        <Action name="mActionScaleFeature" visible="true"/>
+        <Action name="mActionSimplifyFeature" visible="true"/>
+        <Action name="mActionAddRing" visible="true"/>
+        <Action name="mActionAddPart" visible="true"/>
+        <Action name="mActionFillRing" visible="true"/>
+        <Action name="mActionDeleteRing" visible="true"/>
+        <Action name="mActionDeletePart" visible="true"/>
+        <Action name="mActionReshapeFeatures" visible="true"/>
+        <Action name="mActionOffsetCurve" visible="true"/>
+        <Action name="mActionChamferFillet" visible="true"/>
+        <Action name="mActionSplitFeatures" visible="true"/>
+        <Action name="mActionSplitParts" visible="true"/>
+        <Action name="mActionMergeFeatures" visible="true"/>
+        <Action name="mActionVertexTool" visible="true"/>
+        <Action name="mActionReverseLine" visible="true"/>
+        <Action name="mActionTrimExtendFeature" visible="true"/>
+      </Menu>
+      <Action name="mActionRotatePointSymbols" visible="true"/>
+      <Action name="mActionOffsetPointSymbol" visible="true"/>
+    </Menu>
+    <Menu name="mViewMenu" visible="true">
+      <Action name="mActionNewMapCanvas" visible="true"/>
+      <Menu name="m3DMapViewsMenu" visible="true">
+        <Action name="mActionNew3DMapCanvas" visible="true"/>
+        <Action name="mActionNew3DMapCanvasGlobe" visible="true"/>
+        <Action name="mActionManage3DMapViews" visible="true"/>
+      </Menu>
+      <Action name="mActionPan" visible="true"/>
+      <Action name="mActionPanToSelected" visible="true"/>
+      <Action name="mActionZoomIn" visible="true"/>
+      <Action name="mActionZoomOut" visible="true"/>
+      <Menu name="menuData_Filtering" visible="true">
+        <Action name="mActionTemporalController" visible="true"/>
+        <Action name="mActionElevationController" visible="true"/>
+      </Menu>
+      <Action name="mActionIdentify" visible="true"/>
+      <Menu name="mMenuMeasure" visible="true">
+        <Action name="mActionMeasure" visible="true"/>
+        <Action name="mActionMeasureArea" visible="true"/>
+        <Action name="mActionMeasureBearing" visible="true"/>
+        <Action name="mActionMeasureAngle" visible="true"/>
+      </Menu>
+      <Action name="mActionStatisticalSummary" visible="true"/>
+      <Menu name="mMenuElevationProfiles" visible="true"/>
+      <Action name="mActionZoomFullExtent" visible="true"/>
+      <Action name="mActionZoomToSelected" visible="true"/>
+      <Action name="mActionZoomToLayers" visible="true"/>
+      <Action name="mActionZoomActualSize" visible="true"/>
+      <Action name="mActionZoomLast" visible="true"/>
+      <Action name="mActionZoomNext" visible="true"/>
+      <Menu name="mMenuDecorations" visible="true">
+        <Action name="mActionDecorationGrid" visible="true"/>
+        <Action name="mActionDecorationScaleBar" visible="true"/>
+        <Action name="mActionDecorationImage" visible="true"/>
+        <Action name="mActionDecorationNorthArrow" visible="true"/>
+        <Action name="mActionDecorationTitle" visible="true"/>
+        <Action name="mActionDecorationCopyright" visible="true"/>
+        <Action name="mActionDecorationLayoutExtent" visible="true"/>
+      </Menu>
+      <Menu name="mMenuPreviewMode" visible="true">
+        <Action name="mActionPreviewModeOff" visible="true"/>
+        <Action name="mActionPreviewModeMono" visible="true"/>
+        <Action name="mActionPreviewModeGrayscale" visible="true"/>
+        <Action name="mActionPreviewProtanope" visible="true"/>
+        <Action name="mActionPreviewDeuteranope" visible="true"/>
+        <Action name="mActionPreviewTritanope" visible="true"/>
+      </Menu>
+      <Action name="mActionMapTips" visible="true"/>
+      <Action name="mActionNewBookmark" visible="true"/>
+      <Action name="mActionShowBookmarks" visible="true"/>
+      <Action name="mActionShowBookmarkManager" visible="true"/>
+      <Action name="mActionDraw" visible="true"/>
+      <Menu name="mMenuLayerVisibility" visible="true">
+        <Action name="mActionShowAllLayers" visible="true"/>
+        <Action name="mActionHideAllLayers" visible="true"/>
+        <Action name="mActionShowSelectedLayers" visible="true"/>
+        <Action name="mActionHideSelectedLayers" visible="true"/>
+        <Action name="mActionToggleSelectedLayers" visible="true"/>
+        <Action name="mActionToggleSelectedLayersIndependently" visible="true"/>
+        <Action name="mActionHideDeselectedLayers" visible="true"/>
+      </Menu>
+    </Menu>
+    <Menu name="mLayerMenu" visible="true">
+      <Action name="mActionDataSourceManager" visible="true"/>
+      <Menu name="mNewLayerMenu" visible="true">
+        <Action name="mActionNewGeoPackageLayer" visible="true"/>
+        <Action name="mActionNewVectorLayer" visible="true"/>
+        <Action name="mActionNewSpatiaLiteLayer" visible="true"/>
+        <Action name="mActionNewMemoryLayer" visible="true"/>
+        <Action name="mActionNewMeshLayer" visible="true"/>
+        <Action name="mActionNewGpxLayer" visible="true"/>
+        <Action name="mActionNewVirtualLayer" visible="true"/>
+      </Menu>
+      <Menu name="mAddLayerMenu" visible="true">
+        <Action name="mActionAddOgrLayer" visible="true"/>
+        <Action name="mActionAddRasterLayer" visible="true"/>
+        <Action name="mActionAddMeshLayer" visible="true"/>
+        <Action name="mActionAddDelimitedText" visible="true"/>
+        <Action name="mActionAddPgLayer" visible="true"/>
+        <Action name="mActionAddSpatiaLiteLayer" visible="true"/>
+        <Action name="mActionAddMssqlLayer" visible="true"/>
+        <Action name="mActionAddVirtualLayer" visible="true"/>
+        <Action name="mActionAddWmsLayer" visible="true"/>
+        <Action name="mActionAddXyzLayer" visible="true"/>
+        <Action name="mActionAddLayerSeparator" visible="true"/>
+        <Action name="mActionAddWcsLayer" visible="true"/>
+        <Action name="mActionAddWfsLayer" visible="true"/>
+        <Action name="mActionAddAfsLayer" visible="true"/>
+        <Action name="mActionAddVectorTileLayer" visible="true"/>
+        <Action name="mActionAddPointCloudLayer" visible="true"/>
+        <Action name="mActionAddGpsLayer" visible="true"/>
+        <Action name="mActionAddStacLayer" visible="true"/>
+      </Menu>
+      <Action name="mActionEmbedLayers" visible="true"/>
+      <Action name="mActionAddLayerDefinition" visible="true"/>
+      <Action name="mActionShowGeoreferencer" visible="true"/>
+      <Action name="mActionCopyStyle" visible="true"/>
+      <Action name="mActionPasteStyle" visible="true"/>
+      <Action name="mActionCopyLayer" visible="true"/>
+      <Action name="mActionPasteLayer" visible="true"/>
+      <Action name="mActionOpenTable" visible="true"/>
+      <Menu name="mMenuFilterTable" visible="true">
+        <Action name="mActionOpenTableSelected" visible="true"/>
+        <Action name="mActionOpenTableVisible" visible="true"/>
+        <Action name="mActionOpenTableEdited" visible="true"/>
+      </Menu>
+      <Action name="mActionToggleEditing" visible="true"/>
+      <Action name="mActionSaveLayerEdits" visible="true"/>
+      <Menu name="AllEditsMenu" visible="true">
+        <Action name="mActionSaveEdits" visible="true"/>
+        <Action name="mActionRollbackEdits" visible="true"/>
+        <Action name="mActionCancelEdits" visible="true"/>
+        <Action name="mActionSaveAllEdits" visible="true"/>
+        <Action name="mActionRollbackAllEdits" visible="true"/>
+        <Action name="mActionCancelAllEdits" visible="true"/>
+      </Menu>
+      <Action name="mActionLayerSaveAs" visible="true"/>
+      <Action name="mActionSaveLayerDefinition" visible="true"/>
+      <Action name="mActionRemoveLayer" visible="true"/>
+      <Action name="mActionDuplicateLayer" visible="true"/>
+      <Action name="mActionSetLayerScaleVisibility" visible="true"/>
+      <Action name="mActionSetLayerCRS" visible="true"/>
+      <Action name="mActionSetProjectCRSFromLayer" visible="true"/>
+      <Action name="mActionLayerProperties" visible="true"/>
+      <Action name="mActionLayerSubsetString" visible="true"/>
+      <Action name="mActionLabeling" visible="true"/>
+      <Action name="mActionAddToOverview" visible="true"/>
+      <Action name="mActionAddAllToOverview" visible="true"/>
+      <Action name="mActionRemoveAllFromOverview" visible="true"/>
+    </Menu>
+    <Menu name="mVectorMenu" visible="true">
+      <Menu name="Outils d'&amp;analyse" visible="true">
+        <Action name="mProcessingUserMenu_native:basicstatisticsforfields" visible="true"/>
+        <Action name="mProcessingUserMenu_native:countpointsinpolygon" visible="true"/>
+        <Action name="mProcessingUserMenu_native:distancematrix" visible="true"/>
+        <Action name="mProcessingUserMenu_native:lineintersections" visible="true"/>
+        <Action name="mProcessingUserMenu_native:listuniquevalues" visible="true"/>
+        <Action name="mProcessingUserMenu_native:meancoordinates" visible="true"/>
+        <Action name="mProcessingUserMenu_native:nearestneighbouranalysis" visible="true"/>
+        <Action name="mProcessingUserMenu_native:sumlinelengths" visible="true"/>
+      </Menu>
+      <Menu name="Outils de &amp;géotraitement" visible="true">
+        <Action name="mProcessingUserMenu_native:buffer" visible="true"/>
+        <Action name="mProcessingUserMenu_native:clip" visible="true"/>
+        <Action name="mProcessingUserMenu_native:convexhull" visible="true"/>
+        <Action name="mProcessingUserMenu_native:difference" visible="true"/>
+        <Action name="mProcessingUserMenu_native:dissolve" visible="true"/>
+        <Action name="mProcessingUserMenu_native:intersection" visible="true"/>
+        <Action name="mProcessingUserMenu_native:symmetricaldifference" visible="true"/>
+        <Action name="mProcessingUserMenu_native:union" visible="true"/>
+        <Action name="mProcessingUserMenu_qgis:eliminateselectedpolygons" visible="true"/>
+      </Menu>
+      <Menu name="Outils de géométri&amp;e" visible="true">
+        <Action name="mProcessingUserMenu_native:centroids" visible="true"/>
+        <Action name="mProcessingUserMenu_native:checkvalidity" visible="true"/>
+        <Action name="mProcessingUserMenu_native:collect" visible="true"/>
+        <Action name="mProcessingUserMenu_native:delaunaytriangulation" visible="true"/>
+        <Action name="mProcessingUserMenu_native:densifygeometries" visible="true"/>
+        <Action name="mProcessingUserMenu_native:exportaddgeometrycolumns" visible="true"/>
+        <Action name="mProcessingUserMenu_native:extractvertices" visible="true"/>
+        <Action name="mProcessingUserMenu_native:multiparttosingleparts" visible="true"/>
+        <Action name="mProcessingUserMenu_native:polygonstolines" visible="true"/>
+        <Action name="mProcessingUserMenu_native:simplifygeometries" visible="true"/>
+        <Action name="mProcessingUserMenu_native:voronoipolygons" visible="true"/>
+        <Action name="mProcessingUserMenu_qgis:linestopolygons" visible="true"/>
+      </Menu>
+      <Menu name="Outils de &amp;recherche" visible="true">
+        <Action name="mProcessingUserMenu_native:creategrid" visible="true"/>
+        <Action name="mProcessingUserMenu_native:polygonfromlayerextent" visible="true"/>
+        <Action name="mProcessingUserMenu_native:randompointsinextent" visible="true"/>
+        <Action name="mProcessingUserMenu_native:randompointsinpolygons" visible="true"/>
+        <Action name="mProcessingUserMenu_native:randompointsonlines" visible="true"/>
+        <Action name="mProcessingUserMenu_native:randomselection" visible="true"/>
+        <Action name="mProcessingUserMenu_native:randomselectionwithinsubsets" visible="true"/>
+        <Action name="mProcessingUserMenu_native:selectbylocation" visible="true"/>
+        <Action name="mProcessingUserMenu_native:selectwithindistance" visible="true"/>
+        <Action name="mProcessingUserMenu_qgis:randompointsinlayerbounds" visible="true"/>
+        <Action name="mProcessingUserMenu_qgis:randompointsinsidepolygons" visible="true"/>
+        <Action name="mProcessingUserMenu_qgis:regularpoints" visible="true"/>
+      </Menu>
+      <Menu name="Outils de gestion de &amp;données" visible="true">
+        <Action name="mProcessingUserMenu_native:createspatialindex" visible="true"/>
+        <Action name="mProcessingUserMenu_native:joinattributesbylocation" visible="true"/>
+        <Action name="mProcessingUserMenu_native:mergevectorlayers" visible="true"/>
+        <Action name="mProcessingUserMenu_native:reprojectlayer" visible="true"/>
+        <Action name="mProcessingUserMenu_native:splitvectorlayer" visible="true"/>
+      </Menu>
+    </Menu>
+    <Menu name="mRasterMenu" visible="true">
+      <Action name="mActionShowRasterCalculator" visible="true"/>
+      <Menu name="Analyse" visible="true">
+        <Action name="mProcessingUserMenu_gdal:aspect" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:fillnodata" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:gridaverage" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:griddatametrics" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:gridinversedistance" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:gridnearestneighbor" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:hillshade" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:nearblack" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:proximity" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:roughness" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:sieve" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:slope" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:tpitopographicpositionindex" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:triterrainruggednessindex" visible="true"/>
+      </Menu>
+      <Menu name="Projections" visible="true">
+        <Action name="mProcessingUserMenu_gdal:assignprojection" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:extractprojection" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:warpreproject" visible="true"/>
+      </Menu>
+      <Menu name="Divers" visible="true">
+        <Action name="mProcessingUserMenu_gdal:buildvirtualraster" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:gdalinfo" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:merge" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:overviews" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:tileindex" visible="true"/>
+      </Menu>
+      <Menu name="Extraction" visible="true">
+        <Action name="mProcessingUserMenu_gdal:cliprasterbyextent" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:cliprasterbymasklayer" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:contour" visible="true"/>
+      </Menu>
+      <Menu name="Conversion" visible="true">
+        <Action name="mProcessingUserMenu_gdal:pcttorgb" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:polygonize" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:rasterize" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:rgbtopct" visible="true"/>
+        <Action name="mProcessingUserMenu_gdal:translate" visible="true"/>
+      </Menu>
+      <Action name="mProcessingUserMenu_native:alignrasters" visible="true"/>
+    </Menu>
+    <Menu name="mDatabaseMenu" visible="true">
+      <Action name="mActionQueryHistory" visible="true"/>
+      <Action name="dbManager" visible="true"/>
+    </Menu>
+    <Menu name="mMeshMenu" visible="true">
+      <Action name="mActionShowMeshCalculator" visible="true"/>
+      <Action name="mActionReindexMesh" visible="true"/>
+    </Menu>
+    <Menu name="processing" visible="true">
+      <Action name="toolboxAction" visible="true"/>
+      <Action name="modelerAction" visible="true"/>
+      <Action name="historyAction" visible="true"/>
+      <Action name="resultsViewer" visible="true"/>
+      <Action name="editInPlaceFeatures" visible="true"/>
+    </Menu>
+    <Menu name="mHelpMenu" visible="true">
+      <Action name="mActionHelpContents" visible="true"/>
+      <Action name="mActionHelpAPI" visible="true"/>
+      <Action name="mActionHelpPyQgisAPI" visible="true"/>
+      <Menu name="mMenuPluginHelp" visible="true"/>
+      <Action name="mActionReportaBug" visible="true"/>
+      <Action name="mActionDonate" visible="true"/>
+      <Action name="mActionGetInvolved" visible="true"/>
+      <Action name="mActionNeedSupport" visible="true"/>
+      <Action name="mActionSponsors" visible="true"/>
+      <Action name="mActionQgisHomePage" visible="true"/>
+      <Action name="mActionCheckQgisVersion" visible="true"/>
+      <Action name="mActionAbout" visible="true"/>
+    </Menu>
+  </Menus>
+  <StatusBarWidgets name="StatusBarWidgets" visible="true">
+    <StatusBarWidget name="mProgressBar" visible="true"/>
+    <StatusBarWidget name="mCoordsEdit" visible="true"/>
+    <StatusBarWidget name="mScaleWidget" visible="true"/>
+    <StatusBarWidget name="mMagnifierWidget" visible="true"/>
+    <StatusBarWidget name="mRotationLabel" visible="true"/>
+    <StatusBarWidget name="mRotationEdit" visible="true"/>
+    <StatusBarWidget name="mRenderSuppressionCBox" visible="true"/>
+    <StatusBarWidget name="mOntheFlyProjectionStatusButton" visible="true"/>
+    <StatusBarWidget name="mMessageLogViewerButton" visible="true"/>
+    <StatusBarWidget name="LocatorWidget" visible="true"/>
+  </StatusBarWidgets>
+  <ToolBars name="ToolBars" visible="true">
+    <ToolBar name="MerginMapsToolbar" visible="true"/>
+    <ToolBar name="NgConnectToolBar" visible="true">
+      <Action name="NGConnectShowDock" visible="true"/>
+    </ToolBar>
+    <ToolBar name="OslandiaToolbar" visible="true"/>
+    <ToolBar name="QFieldSync Toolbar" visible="true"/>
+    <ToolBar name="mFileToolBar" visible="true">
+      <Action name="mActionNewProject" visible="true"/>
+      <Action name="mActionOpenProject" visible="true"/>
+      <Action name="mActionSaveProject" visible="true"/>
+      <Action name="mActionNewPrintLayout" visible="true"/>
+      <Action name="mActionShowLayoutManager" visible="true"/>
+      <Action name="mActionStyleManager" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mLayerToolBar" visible="true">
+      <Action name="mActionAddOgrLayer" visible="true"/>
+      <Action name="mActionAddRasterLayer" visible="true"/>
+      <Action name="mActionAddMeshLayer" visible="true"/>
+      <Action name="mActionAddDelimitedText" visible="true"/>
+      <Action name="mActionAddSpatiaLiteLayer" visible="true"/>
+      <Action name="mActionAddVirtualLayer" visible="true"/>
+      <Action name="ActionAddDbLayer" visible="true">
+        <Action name="mActionAddPgLayer" visible="true"/>
+        <Action name="mActionAddMssqlLayer" visible="true"/>
+      </Action>
+      <Action name="mActionAddWmsLayer" visible="true"/>
+      <Action name="mActionAddWcsLayer" visible="true"/>
+      <Action name="mActionAddWfsLayer" visible="true"/>
+      <Action name="mActionAddStacLayer" visible="true"/>
+      <Action name="ActionNewLayer" visible="true">
+        <Action name="mActionNewVectorLayer" visible="true"/>
+        <Action name="mActionNewSpatiaLiteLayer" visible="true"/>
+        <Action name="mActionNewGeoPackageLayer" visible="true"/>
+        <Action name="mActionNewMemoryLayer" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mDigitizeToolBar" visible="true">
+      <Menu name="AllEditsMenu" visible="true">
+        <Action name="mActionSaveEdits" visible="true"/>
+        <Action name="mActionRollbackEdits" visible="true"/>
+        <Action name="mActionCancelEdits" visible="true"/>
+        <Action name="mActionSaveAllEdits" visible="true"/>
+        <Action name="mActionRollbackAllEdits" visible="true"/>
+        <Action name="mActionCancelAllEdits" visible="true"/>
+      </Menu>
+      <Action name="mActionToggleEditing" visible="true"/>
+      <Action name="mActionSaveLayerEdits" visible="true"/>
+      <Action name="mDigitizeModeToolButton" visible="true">
+        <Action name="mActionDigitizeWithSegment" visible="true"/>
+      </Action>
+      <Action name="mActionAddFeature" visible="true"/>
+      <Action name="ActionVertexTool" visible="true">
+        <Action name="mActionVertexTool" visible="true"/>
+        <Action name="mActionVertexToolActiveLayer" visible="true"/>
+      </Action>
+      <Action name="mActionMultiEditAttributes" visible="true"/>
+      <Action name="mActionDeleteSelected" visible="true"/>
+      <Action name="mActionCutFeatures" visible="true"/>
+      <Action name="mActionCopyFeatures" visible="true"/>
+      <Action name="mActionPasteFeatures" visible="true"/>
+      <Action name="mActionUndo" visible="true"/>
+      <Action name="mActionRedo" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mAdvancedDigitizeToolBar" visible="true">
+      <Action name="mEnableAction" visible="true"/>
+      <Action name="ActionMoveFeatureTool" visible="true">
+        <Action name="mActionMoveFeature" visible="true"/>
+        <Action name="mActionMoveFeatureCopy" visible="true"/>
+        <Action name="mActionFeatureArray" visible="true"/>
+      </Action>
+      <Action name="mActionRotateFeature" visible="true"/>
+      <Action name="mActionScaleFeature" visible="true"/>
+      <Action name="mActionSimplifyFeature" visible="true"/>
+      <Action name="mActionAddRing" visible="true"/>
+      <Action name="mActionAddPart" visible="true"/>
+      <Action name="mActionFillRing" visible="true"/>
+      <Action name="mActionDeleteRing" visible="true"/>
+      <Action name="mActionDeletePart" visible="true"/>
+      <Action name="mActionReshapeFeatures" visible="true"/>
+      <Action name="mActionOffsetCurve" visible="true"/>
+      <Action name="mActionChamferFillet" visible="true"/>
+      <Action name="mActionReverseLine" visible="true"/>
+      <Action name="mActionTrimExtendFeature" visible="true"/>
+      <Action name="mActionSplitFeatures" visible="true"/>
+      <Action name="mActionSplitParts" visible="true"/>
+      <Action name="mActionMergeFeatures" visible="true"/>
+      <Action name="mActionMergeFeatureAttributes" visible="true"/>
+      <Action name="ActionPointSymbolTools" visible="true">
+        <Action name="mActionRotatePointSymbols" visible="true"/>
+        <Action name="mActionOffsetPointSymbol" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mMapNavToolBar" visible="true">
+      <Action name="mActionPan" visible="true"/>
+      <Action name="mActionPanToSelected" visible="true"/>
+      <Action name="mActionZoomIn" visible="true"/>
+      <Action name="mActionZoomOut" visible="true"/>
+      <Action name="mActionZoomFullExtent" visible="true"/>
+      <Action name="mActionZoomToSelected" visible="true"/>
+      <Action name="mActionZoomToLayers" visible="true"/>
+      <Action name="mActionZoomActualSize" visible="true"/>
+      <Action name="mActionZoomLast" visible="true"/>
+      <Action name="mActionZoomNext" visible="true"/>
+      <Action name="mActionNewMapCanvas" visible="true"/>
+      <Action name="mActionNew3DMapCanvas" visible="true"/>
+      <Action name="mActionNewBookmark" visible="true"/>
+      <Action name="mActionShowBookmarks" visible="true"/>
+      <Action name="mActionTemporalController" visible="true"/>
+      <Action name="mActionDraw" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mAttributesToolBar" visible="true">
+      <Action name="mActionIdentify" visible="true"/>
+      <Action name="mActionOpenFieldCalc" visible="true"/>
+      <Action name="toolboxAction" visible="true"/>
+      <Action name="mActionStatisticalSummary" visible="true"/>
+      <Action name="ActionOpenTable" visible="true">
+        <Action name="mActionOpenTable" visible="true"/>
+        <Action name="mActionOpenTableSelected" visible="true"/>
+        <Action name="mActionOpenTableVisible" visible="true"/>
+        <Action name="mActionOpenTableEdited" visible="true"/>
+      </Action>
+      <Action name="ActionMeasure" visible="true">
+        <Action name="mActionMeasure" visible="true"/>
+        <Action name="mActionMeasureArea" visible="true"/>
+        <Action name="mActionMeasureBearing" visible="true"/>
+        <Action name="mActionMeasureAngle" visible="true"/>
+      </Action>
+      <Action name="mActionMapTips" visible="true"/>
+      <Action name="ActionFeatureAction" visible="true">
+        <Action name="mActionFeatureAction" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mPluginToolBar" visible="true">
+      <Action name="mActionShowPythonDialog" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mHelpToolBar" visible="true">
+      <Action name="mActionHelpContents" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mRasterToolBar" visible="true">
+      <Action name="mActionLocalCumulativeCutStretch" visible="true"/>
+      <Action name="mActionFullCumulativeCutStretch" visible="true"/>
+      <Action name="mActionLocalHistogramStretch" visible="true"/>
+      <Action name="mActionFullHistogramStretch" visible="true"/>
+      <Action name="mActionIncreaseBrightness" visible="true"/>
+      <Action name="mActionDecreaseBrightness" visible="true"/>
+      <Action name="mActionIncreaseContrast" visible="true"/>
+      <Action name="mActionDecreaseContrast" visible="true"/>
+      <Action name="mActionIncreaseGamma" visible="true"/>
+      <Action name="mActionDecreaseGamma" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mLabelToolBar" visible="true">
+      <Action name="mActionLabeling" visible="true"/>
+      <Action name="mActionDiagramProperties" visible="true"/>
+      <Action name="mActionShowPinnedLabels" visible="true"/>
+      <Action name="mActionShowUnplacedLabels" visible="true"/>
+      <Action name="mActionPinLabels" visible="true"/>
+      <Action name="mActionShowHideLabels" visible="true"/>
+      <Action name="mActionMoveLabel" visible="true"/>
+      <Action name="mActionRotateLabel" visible="true"/>
+      <Action name="mActionChangeLabelProperties" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mVectorToolBar" visible="true"/>
+    <ToolBar name="mDatabaseToolBar" visible="true">
+      <Action name="dbManager" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mWebToolBar" visible="true"/>
+    <ToolBar name="mSnappingToolBar" visible="true">
+      <Action name="EnableSnappingAction" visible="true"/>
+      <Action name="mModeAction" visible="true">
+        <Action name="mAllLayersAction" visible="true"/>
+      </Action>
+      <Action name="mEditAdvancedConfigAction" visible="true"/>
+      <Action name="mTypeAction" visible="true">
+        <Action name="Sommet" visible="true"/>
+      </Action>
+      <Action name="mToleranceAction" visible="true"/>
+      <Action name="mUnitAction" visible="true"/>
+      <Action name="TopologicalEditingAction" visible="true"/>
+      <Action name="mAvoidIntersectionsModeAction" visible="true">
+        <Menu name="avoidIntersectionsModeMenu" visible="true">
+          <Action name="mAllowIntersectionsAction" visible="true"/>
+          <Action name="mAvoidIntersectionsCurrentLayerAction" visible="true"/>
+          <Action name="mAvoidIntersectionsLayersAction" visible="true"/>
+        </Menu>
+        <Action name="mAllowIntersectionsAction" visible="true"/>
+      </Action>
+      <Action name="IntersectionSnappingAction" visible="true"/>
+      <Menu name="tracingMenu" visible="true">
+        <Action name="tracingWidgetAction" visible="true"/>
+      </Menu>
+      <Action name="SelfSnappingAction" visible="true"/>
+      <Action name="mSnappingWidget" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mDataSourceManagerToolBar" visible="true">
+      <Action name="mActionDataSourceManager" visible="true"/>
+      <Action name="mActionNewGeoPackageLayer" visible="true"/>
+      <Action name="mActionNewVectorLayer" visible="true"/>
+      <Action name="mActionNewSpatiaLiteLayer" visible="true"/>
+      <Action name="mActionNewMemoryLayer" visible="true"/>
+      <Action name="mActionNewMeshLayer" visible="true"/>
+      <Action name="mActionNewVirtualLayer" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mShapeDigitizeToolBar" visible="true">
+      <Action name="shapeButtonAction" visible="true"/>
+    </ToolBar>
+    <ToolBar name="mSelectionToolBar" visible="true">
+      <Action name="ActionSelect" visible="true">
+        <Action name="mActionSelectFeatures" visible="true"/>
+        <Action name="mActionSelectPolygon" visible="true"/>
+        <Action name="mActionSelectFreehand" visible="true"/>
+        <Action name="mActionSelectRadius" visible="true"/>
+      </Action>
+      <Action name="ActionSelection" visible="true">
+        <Action name="mActionSelectByForm" visible="true"/>
+        <Action name="mActionSelectByExpression" visible="true"/>
+        <Action name="mActionSelectAll" visible="true"/>
+        <Action name="mActionInvertSelection" visible="true"/>
+      </Action>
+      <Action name="ActionDeselection" visible="true">
+        <Action name="mActionDeselectAll" visible="true"/>
+        <Action name="mActionDeselectActiveLayer" visible="true"/>
+      </Action>
+      <Action name="selectByToolButton" visible="true">
+        <Action name="mProcessingAlg_native:selectbylocation" visible="true"/>
+        <Action name="mProcessingAlg_native:selectwithindistance" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mMeshToolBar" visible="true">
+      <Action name="meshEditToolButtonAction" visible="true">
+        <Action name="mActionDigitizing" visible="true"/>
+      </Action>
+      <Action name="meshSelectToolButtonAction" visible="true">
+        <Action name="ActionMeshSelectByPolygon" visible="true"/>
+        <Action name="ActionMeshSelectByExpression" visible="true"/>
+        <Action name="mActionSelectIsolatedVertices" visible="true"/>
+        <Action name="mActionSelectAllVertices" visible="true"/>
+      </Action>
+      <Action name="mActionTransformCoordinates" visible="true"/>
+      <Action name="meshForceByLinesToolButton" visible="true">
+        <Action name="mActionForceByLines" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mAnnotationsToolBar" visible="true">
+      <Action name="annotationLayerToolButtonAction" visible="true">
+        <Action name="mActionCreateAnnotationLayer" visible="true"/>
+      </Action>
+      <Action name="mActionSelectAnnotation" visible="true"/>
+      <Action name="mActionModifyAnnotation" visible="true"/>
+      <Action name="mActionAnnotationdepolygone" visible="true"/>
+      <Action name="mActionAnnotationdeligne" visible="true"/>
+      <Action name="mActionAnnotationdumarqueur" visible="true"/>
+      <Action name="mActionAnnotationdeTexteauPoint" visible="true"/>
+      <Action name="mActionTextAnnotationalongLine" visible="true"/>
+      <Action name="mActionTextAnnotationinRectangle" visible="true"/>
+      <Action name="mActionPictureAnnotation" visible="true"/>
+      <Action name="ActionAnnotation" visible="true">
+        <Action name="mActionFormAnnotation" visible="true"/>
+        <Action name="mActionHtmlAnnotation" visible="true"/>
+      </Action>
+    </ToolBar>
+    <ToolBar name="mGpsToolBar" visible="true">
+      <Action name="mConnectAction" visible="true"/>
+      <Action name="mRecenterAction" visible="true"/>
+      <Action name="mDestinationLayerButtonAction" visible="true"/>
+      <Action name="mAddTrackVertexAction" visible="true"/>
+      <Action name="mCreateFeatureAction" visible="true"/>
+      <Action name="mResetFeatureAction" visible="true"/>
+      <Action name="mShowInfoAction" visible="true"/>
+      <Action name="mSettingsMenuAction" visible="true"/>
+    </ToolBar>
+    <UserToolBar name="UserToolBar_1" title="Custom Toolbar" visible="true">
+      <ActionRef name="ActionRef_mActionZoomOut_1" path="ToolBars/mMapNavToolBar/mActionZoomOut" visible="true"/>
+      <ActionRef name="ActionRef_mActionZoomIn_1" path="ToolBars/mMapNavToolBar/mActionZoomIn" visible="true"/>
+      <ActionRef name="ActionRef_mActionPan_1" path="ToolBars/mMapNavToolBar/mActionPan" visible="true"/>
+      <ActionRef name="ActionRef_mActionSaveLayerEdits_1" path="ToolBars/mDigitizeToolBar/mActionSaveLayerEdits" visible="true"/>
+      <ActionRef name="ActionRef_mActionToggleEditing_1" path="ToolBars/mDigitizeToolBar/mActionToggleEditing" visible="true"/>
+      <ActionRef name="ActionRef_mActionSelectFeatures_1" path="ToolBars/mSelectionToolBar/ActionSelect/mActionSelectFeatures" visible="true"/>
+      <ActionRef name="ActionRef_mActionSaveProject_1" path="ToolBars/mFileToolBar/mActionSaveProject" visible="true"/>
+      <ActionRef name="ActionRef_mActionNewProject_1" path="ToolBars/mFileToolBar/mActionNewProject" visible="true"/>
+      <ActionRef name="ActionRef_mActionOpenProject_1" path="ToolBars/mFileToolBar/mActionOpenProject" visible="true"/>
+    </UserToolBar>
+  </ToolBars>
+</Customization>
