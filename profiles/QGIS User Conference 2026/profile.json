@@ -9,7 +9,7 @@
     "splash": "images/splash.png",
     "qgisMinimumVersion": "3.44.0",
     "qgisMaximumVersion": "4.4.14",
-    "version": "0.1",
+    "version": "0.2.0",
     "rules": [
         {
             "name": "Laax attendee or event window",
