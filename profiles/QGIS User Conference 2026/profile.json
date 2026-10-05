@@ -18,19 +18,39 @@
                 "any": [
                     {
                         "all": [
-                            { "path": "$.date.current_year", "operator": "equal", "value": 2026 },
-                            { "path": "$.date.current_month", "operator": "greater_than_inclusive", "value": 9 }
+                            {
+                                "path": "$.date.current_year",
+                                "operator": "equal",
+                                "value": 2026
+                            },
+                            {
+                                "path": "$.date.current_month",
+                                "operator": "greater_than_inclusive",
+                                "value": 9
+                            }
                         ]
                     },
                     {
                         "all": [
-                            { "path": "$.date.current_year", "operator": "equal", "value": 2027 },
-                            { "path": "$.date.current_month", "operator": "less_than_inclusive", "value": 9 }
+                            {
+                                "path": "$.date.current_year",
+                                "operator": "equal",
+                                "value": 2027
+                            },
+                            {
+                                "path": "$.date.current_month",
+                                "operator": "less_than_inclusive",
+                                "value": 9
+                            }
                         ]
                     },
                     {
                         "all": [
-                            { "path": "$.env.QDT_LAAX_ATTENDEE", "operator": "equal", "value": "true" }
+                            {
+                                "path": "$.env.QDT_LAAX_ATTENDEE",
+                                "operator": "equal",
+                                "value": "true"
+                            }
                         ]
                     }
                 ]
@@ -109,12 +129,12 @@
             "version": "0.50.1"
         },
         {
-            "name":"QBeach",
-            "folder_name":"QBeach",
+            "name": "QBeach",
+            "folder_name": "QBeach",
             "official_repository": false,
             "location": "remote",
-            "version":"0.1.0",
-            "url":"https://github.com/JTMelly/QBeach/releases/download/v0.1.0/QBeach.zip"
+            "version": "0.1.0",
+            "url": "https://github.com/JTMelly/QBeach/releases/download/v0.1.0/QBeach.zip"
         }
     ]
 }
