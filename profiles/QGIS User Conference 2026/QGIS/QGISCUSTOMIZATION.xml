@@ -1,5 +1,5 @@
 <!DOCTYPE Customization>
-<Customization enabled="true" splashPath="/home/florent/.local/share/QGIS/QGIS3/profiles/QGIS User Conference 2026/images/" version="1">
+<Customization enabled="true" version="1">
   <BrowserItems name="BrowserItems" visible="true">
     <BrowserItem name="AFS" visible="false"/>
     <BrowserItem name="GRASS" visible="false"/>
