@@ -7,6 +7,7 @@
     "email": "florent.fougeres@oslandia.com",
     "icon": "images/icon.ico",
     "splash": "images/splash.png",
+    "qdtMinVersion": "0.48.1",
     "qgisMinimumVersion": "3.44.0",
     "qgisMaximumVersion": "4.6.20",
     "version": "0.3.0",
