@@ -29,6 +29,7 @@ repos:
         name: Check QDT profiles
         files: ^profiles/[^/]+/profile\.json$
         args:
+          - --no-cache
           - --schemafile
           - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json
 
