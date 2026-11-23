@@ -10,7 +10,7 @@
     "qdtMinVersion": "0.48.1",
     "qgisMinimumVersion": "3.44.0",
     "qgisMaximumVersion": "4.10.16",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "plugins": [
         {
             "name": "New Memory Layer",
