@@ -62,44 +62,6 @@
     </Menu>
     <Menu name="mSettingsMenu" visible="true">
       <Menu name="mUserProfileMenu" visible="true">
-        <Action name="mActionProfile_QGIS User Conference Laax 2026" visible="true"/>
-        <Action name="mActionProfile_Agence_eau2026" visible="true"/>
-        <Action name="mActionProfile_CNES FlipFLop" visible="true"/>
-        <Action name="mActionProfile_CNR" visible="true"/>
-        <Action name="mActionProfile_DICT" visible="true"/>
-        <Action name="mActionProfile_duckdb" visible="true"/>
-        <Action name="mActionProfile_empty" visible="true"/>
-        <Action name="mActionProfile_etl" visible="true"/>
-        <Action name="mActionProfile_florent" visible="true"/>
-        <Action name="mActionProfile_French Locator" visible="true"/>
-        <Action name="mActionProfile_georelai_0.14" visible="true"/>
-        <Action name="mActionProfile_GVA" visible="true"/>
-        <Action name="mActionProfile_Light" visible="true"/>
-        <Action name="mActionProfile_neuf" visible="true"/>
-        <Action name="mActionProfile_NewMemoryLayer" visible="true"/>
-        <Action name="mActionProfile_Oslandia" visible="true"/>
-        <Action name="mActionProfile_pg-history" visible="true"/>
-        <Action name="mActionProfile_PLU" visible="true"/>
-        <Action name="mActionProfile_plu2" visible="true"/>
-        <Action name="mActionProfile_primo" visible="true"/>
-        <Action name="mActionProfile_QGIS User Conference 2026" visible="true"/>
-        <Action name="mActionProfile_QGIS_Templater_Plugin" visible="true"/>
-        <Action name="mActionProfile_SAFEGE" visible="true"/>
-        <Action name="mActionProfile_sfcgal" visible="true"/>
-        <Action name="mActionProfile_sfcgal_test" visible="true"/>
-        <Action name="mActionProfile_simple" visible="true"/>
-        <Action name="mActionProfile_test1" visible="true"/>
-        <Action name="mActionProfile_test3" visible="true"/>
-        <Action name="mActionProfile_test3d" visible="true"/>
-        <Action name="mActionProfile_test_benoit" visible="true"/>
-        <Action name="mActionProfile_test_qfield" visible="true"/>
-        <Action name="mActionProfile_test_rde" visible="true"/>
-        <Action name="mActionProfile_testt" visible="true"/>
-        <Action name="mActionProfile_toto334" visible="true"/>
-        <Action name="mActionProfile_totooo" visible="true"/>
-        <Action name="mActionProfile_vide" visible="true"/>
-        <Action name="mActionProfile_vizu" visible="true"/>
-        <Action name="mActionProfile_World Stadium Database" visible="true"/>
         <Action name="mActionOpenActiveProfileFolder" visible="true"/>
         <Action name="mActionNewProfile" visible="true"/>
       </Menu>
