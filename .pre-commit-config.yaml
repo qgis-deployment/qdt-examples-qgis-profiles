@@ -37,7 +37,7 @@ repos:
     hooks:
       - id: check-jsonschema
         name: Check QDT scenarios
-        files: ^qdt_scenarii/.*\.yml$
+        files: ^profiles/.*\.yml$
         args:
           - --default-filetype
           - yaml
