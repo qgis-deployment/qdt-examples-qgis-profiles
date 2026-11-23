@@ -27,7 +27,7 @@ repos:
     hooks:
       - id: check-jsonschema
         name: Check QDT profiles
-        files: ^profiles/.*\.json$
+        files: ^profiles/[^/]+/profile\.json$
         args:
           - --schemafile
           - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json
