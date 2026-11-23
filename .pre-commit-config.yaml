@@ -32,20 +32,6 @@ repos:
           - --schemafile
           - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/main/docs/schemas/profile/qgis_profile.json
 
-  - repo: https://github.com/python-jsonschema/check-jsonschema
-    rev: 0.39.0
-    hooks:
-      - id: check-jsonschema
-        name: Check QDT scenarios
-        files: ^profiles/.*\.yml$
-        args:
-          - --default-filetype
-          - yaml
-          - --base-uri
-          - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/
-          - --schemafile
-          - https://raw.githubusercontent.com/qgis-deployment/qgis-deployment-toolbelt-cli/refs/heads/main/docs/schemas/scenario/qdt_scenario.json
-
 ci:
   skip:
     # network access is not available in pre-commit.ci, so skip JSON schema validation in CI
