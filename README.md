@@ -18,6 +18,39 @@ A ready-to-use QGIS profile to help you follow the 2026 QGIS User Conference in 
 
 ![QGIS User Conference 2026 profile preview](https://github.com/qgis-deployment/qdt-examples-qgis-profiles/blob/main/fixtures/img/qgis_user_conference_2026_preview.png?raw=true)
 
+## Include those profile in your QDT scenarios
+
+Profiles Downloader job:
+
+```yaml
+- name: Download profiles
+  uses: qprofiles-downloader
+  with:
+    protocol: git_remote
+    branch: main
+    source: https://github.com/qgis-deployment/qdt-examples-qgis-profiles.git
+```
+
+Shortcuts Manager job:
+
+```yaml
+- name: Create shortcuts
+  uses: shortcuts-manager
+  with:
+    action: create_or_restore
+    include:
+      - profile: Light
+        label: "QGIS Light"
+        desktop: true
+        start_menu: true
+      - profile: QGIS User Conference 2026
+        label: "QGIS User Conference 2026"
+        desktop: true
+        start_menu: true
+```
+
+You can also start from the example scenario which uses this repository: [QDT Example Scenarios](https://github.com/qgis-deployment/qdt-examples-scenarios).
+
 ## License
 
 This work is licensed under a
